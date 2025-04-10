@@ -14,8 +14,6 @@ This model was developed as part of a research/academic project to classify brai
 
 ## 🧠 Model Architecture
 
-> Replace with your model details or keep this example if you used something similar.
-
 - Input Layer: 128x128 grayscale MRI images  
 - Conv2D → ReLU → MaxPooling  
 - Dropout for regularization  
@@ -23,7 +21,5 @@ This model was developed as part of a research/academic project to classify brai
 - Sigmoid / Softmax activation for binary/multi-class classification
 
 ## 📊 Dataset
-
-> Replace this section based on your dataset
 
 The model was trained on a publicly available dataset of brain MRI images (e.g., from [Kaggle](https://www.kaggle.com)) labeled with tumor presence. All images were preprocessed (resized, normalized) before training.
